@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopCompComponent } from './top-comp/top-comp.component';
+import { BottomCompComponent } from './bottom-comp/bottom-comp.component';
+import { HighlightDirective } from './highlight.directive';
+import { SortArrayPipe } from './sort-array.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopCompComponent,
+    BottomCompComponent,
+    HighlightDirective,
+    SortArrayPipe
   ],
   imports: [
     BrowserModule,

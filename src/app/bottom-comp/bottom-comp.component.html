@@ -1,0 +1,9 @@
+<div class="continer">
+  <h1>Bottom Comp</h1>
+  <p>lorem ipsum</p>
+  <button>buton</button>
+</div>
+
+<ul>
+  <li *ngFor="let user of users | sortArray: 'name'">{{user.name}} - {{user.age}}</li>
+</ul>

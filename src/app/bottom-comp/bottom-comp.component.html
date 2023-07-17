@@ -1,3 +1,4 @@
+<p>bottom component</p>
 <div class="continer">
   <h1>Bottom Comp</h1>
   <p>lorem ipsum</p>
@@ -5,5 +6,9 @@
 </div>
 
 <ul>
-  <li *ngFor="let user of users | sortArray: 'name'">{{user.name}} - {{user.age}}</li>
+  <li *ngFor="let user of users | sortArray: 'name' ">{{user.name}} - {{user.age}}</li>
+</ul>
+
+<ul>
+  <li *ngFor="let numberItem of numberArray | limitArray: 5">{{numberItem}}</li>
 </ul>

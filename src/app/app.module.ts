@@ -8,6 +8,7 @@ import { BottomCompComponent } from './bottom-comp/bottom-comp.component';
 import { HighlightDirective } from './highlight.directive';
 import { SortArrayPipe } from './sort-array.pipe';
 import { ExpandDirective } from './expand.directive';
+import { LimitArrayPipe } from './limit-array.pipe';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ExpandDirective } from './expand.directive';
     HighlightDirective,
     SortArrayPipe,
     ExpandDirective,
+    LimitArrayPipe,
   ],
   imports: [
     BrowserModule,

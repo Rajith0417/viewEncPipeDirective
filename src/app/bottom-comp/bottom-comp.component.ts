@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { SortArrayPipe } from '../sort-array.pipe';
+import { LimitArrayPipe } from '../limit-array.pipe';
 
 @Component({
   selector: 'app-bottom-comp',
@@ -17,6 +18,8 @@ export class BottomCompComponent implements OnInit {
     {name: "eee", age: 23},
     {name: "vvv", age: 29},
   ];
+
+  numberArray = [5,3,4,7,8,1,9,2,3,8,9,4]
 
   constructor() { }
 
